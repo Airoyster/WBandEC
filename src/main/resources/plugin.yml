@@ -1,0 +1,15 @@
+name: WBandEC
+version: '${project.version}'
+main: de.airoyster.workbenchandec.Main
+api-version: 1.19
+commands:
+  ec:
+    aliases: enderchest
+  wb:
+    aliases: workbench
+
+permissions:
+  system.ec:
+    default: op
+  system.wb:
+    default: op
